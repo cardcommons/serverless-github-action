@@ -11,4 +11,5 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
 RUN npm i -g serverless@2.x
+RUN npm install aws-sdk -g
 ENTRYPOINT ["serverless"]
